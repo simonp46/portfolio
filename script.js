@@ -76,3 +76,26 @@ document.addEventListener('DOMContentLoaded', function () {
         openOutlook();
     });
 });
+
+const aboutLink = document.getElementById('about-link');
+const servicesLink = document.getElementById('services-link');
+const skillsLink = document.getElementById('skills-link');
+
+function showAlert() {
+    alert("This site is still in the development phase");
+}
+
+aboutLink.addEventListener('click', function(event) {
+    event.preventDefault();
+    showAlert();
+});
+
+servicesLink.addEventListener('click', function(event) {
+    event.preventDefault();
+    showAlert();
+});
+
+skillsLink.addEventListener('click', function(event) {
+    event.preventDefault();
+    showAlert();
+});
