@@ -61,20 +61,3 @@ function sendEmail() {
     
     window.open(mailtoLink, '_blank');
 }
-
-const servicesLink = document.getElementById('services-link');
-const skillsLink = document.getElementById('skills-link');
-
-function showAlert() {
-    alert("This site is still in the development phase");
-}
-
-servicesLink.addEventListener('click', function(event) {
-    event.preventDefault();
-    showAlert();
-});
-
-skillsLink.addEventListener('click', function(event) {
-    event.preventDefault();
-    showAlert();
-});
