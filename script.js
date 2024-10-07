@@ -47,48 +47,27 @@ window.onload = typeWriter;
 
 document.getElementById('hireButton').addEventListener('click', function() {
     const phoneNumber = '573045374560';
-    const message = 'Hola, estoy interesado en contactarte para trabajar juntos.';
+    const message = "Hello Simon. I have seen your portfolio and would like to talk to you about a job offer.";
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     
     window.open(url, '_blank');
 });
 
-document.addEventListener('DOMContentLoaded', function () {
-    const contactLink = document.getElementById('contact-link');
-    const contactLinkDropdown = document.getElementById('contact-link-dropdown');
+function sendEmail() {
+    const email = "padrongavi@hotmail.com";
+    const subject = "job vacancy";
+    const body = "Hello Simon. I would like to make you a job offer";
+    const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    
+    window.open(mailtoLink, '_blank');
+}
 
-    function openOutlook() {
-        const email = "padrongavi@hotmail.com";
-        const subject = "job vacancy";
-        const body = "Hello Simon. I would like to make you a job offer ";
-        const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-
-        window.open(mailtoLink, '_blank');
-    }
-
-    contactLink.addEventListener('click', function(event) {
-        event.preventDefault();
-        openOutlook();
-    });
-
-    contactLinkDropdown.addEventListener('click', function(event) {
-        event.preventDefault();
-        openOutlook();
-    });
-});
-
-const aboutLink = document.getElementById('about-link');
 const servicesLink = document.getElementById('services-link');
 const skillsLink = document.getElementById('skills-link');
 
 function showAlert() {
     alert("This site is still in the development phase");
 }
-
-aboutLink.addEventListener('click', function(event) {
-    event.preventDefault();
-    showAlert();
-});
 
 servicesLink.addEventListener('click', function(event) {
     event.preventDefault();

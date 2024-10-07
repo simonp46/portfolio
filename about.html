@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Saimon Portfolio - About</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                Simon <span>Padron</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="index.html">Home</a>
+                </div>
+                <div class="link" id="services-link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a
+                        href="#">Services</a></div>
+                <div class="link" id="skills-link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a
+                        href="#">Skills</a></div>
+                <div class="link" id="contact-link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a onclick="sendEmail()">Contact</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="">Home</a>
+                <a href="" id="services-link">Services</a>
+                <a href="" id="skills-link">Skills</a>
+                <a href="" id="contact-link-dropdown" onclick="sendEmail()">Contact</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <div class="main-container">
+            <div class="image" data-aos="zoom-out" data-aos-duration="3000">
+                <img src="assets/ProfileFour.png" alt="">
+            </div>
+            <div class="content">
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">I started my studies in software
+                    development in 2019 at the institution <a href="https://www.iudigital.edu.co" target="_blank" style="color: #ee1414;">IUDigital de Antioquia</a>,
+                    motivated by my interest in artificial intelligence and process automation. In 2021, I obtained an
+                    apprenticeship contract with <a href="https://www.linkedin.com/company/webhelpamericas/" target="_blank" style="color: #ee1414;">OneLink</a> and <a href="https://www.cesde.edu.co" target="_blank" style="color: #ee1414;">CESDE</a>, where I did my internship for one year.
+                    Shortly before the end of this period, I received a job offer from the same company to join as a Jr.
+                    software developer, a position in which I worked for two years. During that time, I worked on
+                    several projects for clients such as “Avianca”, “LifeMiles”, “Puntos Colombia”, “Zwift”, “Volaris”,
+                    “Aceros Guatemala”, among others. <br><br>
+                    Throughout these projects, I gained experience in technologies such as C#, .NET, Framecoreapp, SQL
+                    Server, JavaScript/TypeScript, Angular, React Native, Single SPA and Dialogflow ES-CX, among others.
+                    In addition, I developed skills in the creation, configuration and administration of resources in
+                    Azure, such as CDN (Content Delivery Network), Azure Functions, AppServices, Service Bus, API
+                    Management, Key Vault, using tools such as Azure Storage Explorer for their management.<br><br>
+                    I also have experience working with agile methodologies like Scrum and Kanban, using tools like Jira
+                    for project management. I have worked in collaborative environments with Azure DevOps, where I
+                    managed code, configured environments and branch policies, and automated CI/CD processes, including
+                    integrations for analytics with SonarCloud.<br><br>
+
+                    My professional vision is driven by continuous self-study and a desire to work alongside competent
+                    professionals who will help me develop my skills. I aspire to share my knowledge with others,
+                    supporting their growth, and, in the long term, to become a software architect, contributing to the
+                    design and leadership of high-impact technology solutions.</p>
+
+                <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">
+                    <button onclick="window.location.href='index.html'">Back</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({ offset: 0 });
+    </script>
+    <script src="script.js" defer></script>
+</body>
+
+</html>
