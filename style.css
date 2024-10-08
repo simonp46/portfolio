@@ -125,6 +125,79 @@ section {
     position: relative;
 }
 
+.services-section {
+    width: 100%;
+    height: auto;
+    margin-top: 10vh;
+}
+
+.main-services-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.main-services-container .content-services {
+    color: #ffffff;
+    width: 40%;
+    min-height: 100px;
+}
+
+.content-services h1 {
+    font-size: clamp(1, 1rem, 0.5rem + 5vw, 1.8rem);
+    margin-bottom: 20px;
+    margin-top: 30px;
+    /* justify-content: center;
+    display: flex; */
+}
+
+.content-services h1 span {
+    color: #ee1414;
+    text-shadow: 0 0 10px #ee1414;
+    margin-bottom: 20px;
+    /* justify-content: center;
+    display: flex; */
+}
+
+.content-serveces p {
+    font-size: clamp(0.4rem, 0.2rem + 9vw, 1rem);
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+.main-services-container .btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.content-services button {
+    width: 50%; 
+    height: 6vh;
+    margin: 30px;
+    background-color: #ee1414;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    font-size: 120%;
+    font-weight: 700;
+    border-radius: 5px;
+    transition: 0.2s linear;
+}
+
+.content-services button:hover {
+    scale: 1.1;
+    color: #ee1414;
+    border: 2px solid #ee1414;
+    background-color: transparent;
+    font-weight: 700;
+    box-shadow: 0 0 40px #ee1414;
+}
+
 .main-container .image {
     width: 500px;
     height: 80vh;
