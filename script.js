@@ -10,9 +10,9 @@ function cancel(){
 
 const texts = [
     "FULL STACK DEVELOPER",
-    "DATABASE DEVELOPER",
     "WEB DESIGNER",
-    "CHATBOT DESIGNER"
+    "CHATBOT DESIGNER",
+    "DATABASE DEVELOPER"
 ]
 
 let speed =100;
