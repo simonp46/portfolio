@@ -151,16 +151,12 @@ section {
     font-size: clamp(1, 1rem, 0.5rem + 5vw, 1.8rem);
     margin-bottom: 20px;
     margin-top: 30px;
-    /* justify-content: center;
-    display: flex; */
 }
 
 .content-services h1 span {
     color: #ee1414;
     text-shadow: 0 0 10px #ee1414;
     margin-bottom: 20px;
-    /* justify-content: center;
-    display: flex; */
 }
 
 .content-serveces p {
@@ -201,7 +197,7 @@ section {
 .main-container .image {
     width: 500px;
     height: 80vh;
-    border-radius: 100%;
+    border-radius: 5%;
     overflow: hidden;
     box-shadow: 0 0 50px #ee1414;
     position: relative;
