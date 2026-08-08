@@ -431,6 +431,11 @@ section {
     isolation: isolate;
 }
 
+.main-demos-container {
+    gap: clamp(28px, 4vw, 40px);
+    padding: 12px 0 32px;
+}
+
 .content-services,
 .content-skills,
 .demo-card,
@@ -494,6 +499,10 @@ body:not(.home-page) .main-container .content {
 
 .demo-card {
     width: min(940px, 100%);
+}
+
+.demo-card h1 {
+    margin-bottom: 12px;
 }
 
 .demo-card h2 {

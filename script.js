@@ -25,7 +25,16 @@ const TRANSLATIONS = {
         "skills.azure.description": "With Azure, I create and manage cloud solutions using API Management, Key Vault, Service Bus, CDN, Azure Functions and App Services.",
         "skills.devops.description": "My DevOps work focuses on CI/CD automation with Azure DevOps and GitHub Actions, improving collaboration, testing, releases and delivery quality.",
         "skills.jira.description": "I use Jira to manage software projects, implement Scrum and Kanban boards, track progress, identify bottlenecks and improve collaboration.",
-        "demos.heading": "Featured <span>Demo</span>", "demos.description1": "I designed and implemented a production-ready MVP called ClinicalProfileAgent, an AI-assisted clinical documentation copilot for respiratory therapists and healthcare professionals. The system receives or syncs sessions, processes transcripts, de-identifies sensitive content, generates structured drafts with language models, creates clinical documents in PDF/DOCX formats, and centralizes the professional review workflow in a responsive web dashboard.", "demos.description2": "The solution was built as a monorepo with FastAPI, SQLAlchemy, Alembic, PostgreSQL, Celery, Redis, Next.js 15, TypeScript, and Tailwind. It includes JWT authentication, SMTP-based password recovery, Google/Microsoft OAuth integration, basic observability, automated testing, Docker Compose, CI/CD with GitHub Actions, and production deployment on a cloud server.", "demos.button": "View Website",
+        "demos.clinical.heading": "Featured <span>Demo</span>",
+        "demos.clinical.description1": "I designed and implemented a production-ready MVP called ClinicalProfileAgent, an AI-assisted clinical documentation copilot for respiratory therapists and healthcare professionals. The system receives or syncs sessions, processes transcripts, de-identifies sensitive content, generates structured drafts with language models, creates clinical documents in PDF/DOCX formats, and centralizes the professional review workflow in a responsive web dashboard.",
+        "demos.clinical.description2": "The solution was built as a monorepo with FastAPI, SQLAlchemy, Alembic, PostgreSQL, Celery, Redis, Next.js 15, TypeScript, and Tailwind. It includes JWT authentication, SMTP-based password recovery, Google/Microsoft OAuth integration, basic observability, automated testing, Docker Compose, CI/CD with GitHub Actions, and production deployment on a cloud server.",
+        "demos.metrallo.heading": "Music <span>Website</span>",
+        "demos.metrallo.description1": "Metrallo is a thrash metal band from Medellin, and this demo presents its story, discography, live appearances, lineup, official merch, and booking contact in a bold editorial website.",
+        "demos.metrallo.description2": "The experience combines long-scroll storytelling, immersive typography, embedded media, press-oriented sections, and clear contact points designed for fans, promoters, and event organizers.",
+        "demos.agaval.heading": "Inventory <span>Platform</span>",
+        "demos.agaval.description1": "Inventario Agaval presents a web-based inventory manager with authenticated access, focused on centralizing stock control, product tracking, and operational workflows in a clean business interface.",
+        "demos.agaval.description2": "The public demo emphasizes a branded SPA experience with Angular and Material styling, giving internal teams a clearer entry point for day-to-day inventory operations.",
+        "demos.button": "View Website",
         typewriter: ["FULL STACK DEVELOPER", "WEB DESIGNER", "CHATBOT DESIGNER", "DATABASE DEVELOPER", "AI SPECIALIST", "DEVOPS ENGINEER"]
     },
     es: {
@@ -45,7 +54,16 @@ const TRANSLATIONS = {
         "skills.azure.description": "Con Azure creo y gestiono soluciones cloud usando API Management, Key Vault, Service Bus, CDN, Azure Functions y App Services.",
         "skills.devops.description": "Mi trabajo DevOps se enfoca en automatización CI/CD con Azure DevOps y GitHub Actions, mejorando colaboración, pruebas, releases y calidad de entrega.",
         "skills.jira.description": "Uso Jira para gestionar proyectos de software, implementar tableros Scrum y Kanban, seguir avances, identificar bloqueos y mejorar colaboración.",
-        "demos.heading": "Demo <span>Destacada</span>", "demos.description1": "Diseñé e implementé un MVP listo para producción llamado ClinicalProfileAgent, un copiloto de documentación clínica asistida por IA para terapeutas respiratorios y profesionales de salud. El sistema recibe o sincroniza sesiones, procesa transcripciones, desidentifica contenido sensible, genera borradores estructurados con modelos de lenguaje, crea documentos clínicos en formatos PDF/DOCX y centraliza el flujo de revisión profesional en un dashboard web responsive.", "demos.description2": "La solución fue desarrollada como un monorepo con FastAPI, SQLAlchemy, Alembic, PostgreSQL, Celery, Redis, Next.js 15, TypeScript y Tailwind. Incluye autenticación JWT, recuperación de contraseña por SMTP, OAuth con Google/Microsoft, observabilidad básica, pruebas automatizadas, Docker Compose, CI/CD con GitHub Actions y despliegue productivo en servidor cloud.", "demos.button": "Ver Website",
+        "demos.clinical.heading": "Demo <span>Destacada</span>",
+        "demos.clinical.description1": "Dise\u00f1\u00e9 e implement\u00e9 un MVP listo para producci\u00f3n llamado ClinicalProfileAgent, un copiloto de documentaci\u00f3n cl\u00ednica asistida por IA para terapeutas respiratorios y profesionales de salud. El sistema recibe o sincroniza sesiones, procesa transcripciones, desidentifica contenido sensible, genera borradores estructurados con modelos de lenguaje, crea documentos cl\u00ednicos en formatos PDF/DOCX y centraliza el flujo de revisi\u00f3n profesional en un dashboard web responsive.",
+        "demos.clinical.description2": "La soluci\u00f3n fue desarrollada como un monorepo con FastAPI, SQLAlchemy, Alembic, PostgreSQL, Celery, Redis, Next.js 15, TypeScript y Tailwind. Incluye autenticaci\u00f3n JWT, recuperaci\u00f3n de contrase\u00f1a por SMTP, OAuth con Google/Microsoft, observabilidad b\u00e1sica, pruebas automatizadas, Docker Compose, CI/CD con GitHub Actions y despliegue productivo en servidor cloud.",
+        "demos.metrallo.heading": "Sitio <span>Musical</span>",
+        "demos.metrallo.description1": "Metrallo es una banda de thrash metal de Medell\u00edn, y esta demo presenta su historia, discograf\u00eda, presentaciones en vivo, alineaci\u00f3n, merch oficial y contacto de booking en un sitio editorial con mucha personalidad.",
+        "demos.metrallo.description2": "La experiencia combina narrativa de largo recorrido, tipograf\u00eda inmersiva, secciones multimedia, bloques pensados para prensa y puntos de contacto claros para fans, promotores y organizadores.",
+        "demos.agaval.heading": "Plataforma de <span>Inventario</span>",
+        "demos.agaval.description1": "Inventario Agaval presenta un gestor web de inventario con acceso autenticado, enfocado en centralizar control de stock, seguimiento de productos y flujos operativos en una interfaz de negocio clara.",
+        "demos.agaval.description2": "La demo p\u00fablica resalta una experiencia SPA con identidad de marca, Angular y estilo Material, ofreciendo a los equipos internos un punto de entrada m\u00e1s claro para la operaci\u00f3n diaria del inventario.",
+        "demos.button": "Ver sitio web",
         typewriter: ["DESARROLLADOR FULL STACK", "DISEÑADOR WEB", "DISEÑADOR DE CHATBOTS", "DESARROLLADOR DE BASES DE DATOS", "ESPECIALISTA EN IA", "INGENIERO DEVOPS"]
     },
     pt: {
@@ -138,6 +156,16 @@ function setHeadings(selector, keys) {
         if (elements[index]) {
             elements[index].innerHTML = t(key);
         }
+    });
+}
+
+function applyDataTranslations(root = document) {
+    root.querySelectorAll('[data-i18n]').forEach((element) => {
+        element.textContent = t(element.dataset.i18n);
+    });
+
+    root.querySelectorAll('[data-i18n-html]').forEach((element) => {
+        element.innerHTML = t(element.dataset.i18nHtml);
     });
 }
 
@@ -267,9 +295,34 @@ function applyTranslations() {
     }
 
     if (document.title.includes('Demos')) {
-        setHtml('.demo-card h1', 'demos.heading');
-        setParagraphs('.demo-card p', ['demos.description1', 'demos.description2']);
-        setText('.demo-card .btn button', 'demos.button');
+        const featuredDemoCard = document.querySelector('.demo-card');
+        if (featuredDemoCard) {
+            const heading = featuredDemoCard.querySelector('h1');
+            const paragraphs = featuredDemoCard.querySelectorAll('p');
+            const button = featuredDemoCard.querySelector('.btn button');
+            const featuredHeadingKey = TRANSLATIONS[currentLanguage]?.['demos.clinical.heading'] ? 'demos.clinical.heading' : 'demos.heading';
+            const featuredDescriptionKeys = TRANSLATIONS[currentLanguage]?.['demos.clinical.description1']
+                ? ['demos.clinical.description1', 'demos.clinical.description2']
+                : ['demos.description1', 'demos.description2'];
+
+            if (heading) {
+                heading.innerHTML = t(featuredHeadingKey);
+            }
+
+            featuredDescriptionKeys.forEach((key, index) => {
+                if (paragraphs[index]) {
+                    paragraphs[index].innerHTML = t(key);
+                }
+            });
+
+            if (button) {
+                button.textContent = t('demos.button');
+            }
+        }
+
+        document.querySelectorAll('.main-demos-container > .demo-card:not(:first-child)').forEach((card) => {
+            applyDataTranslations(card);
+        });
     }
 }
 
